@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 84.2% 60.2%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 84.2% 60.2%;
+    --radius: 0.5rem;
+
+    --context-card-border: hsla(0, 0%, 92%, 1);
+    --ds-contrast-fg: #ffffff;
+    --geist-background: #fff;
+    --ds-shadow-menu: var(--ds-shadow-border), 0px 1px 1px rgba(0, 0, 0, 0.02), 0px 4px 8px -4px rgba(0, 0, 0, 0.04), 0px 16px 24px -8px rgba(0, 0, 0, 0.06);
+    --ds-red-800: oklch(58.19% 0.2482 25.15);
+    --ds-red-900: oklch(54.99% 0.232 25.29);
+    --ds-blue-700: oklch(57.61% 0.2508 258.23);
+    --ds-amber-800: oklch(77.21% 0.1991 64.28);
+    --ds-amber-850: hsl(33, 96%, 42%);
+    --ds-gray-100: hsla(0, 0%, 95%, 1);
+    --ds-gray-400: hsla(0, 0%, 92%, 1);
+    --ds-gray-700: hsla(0, 0%, 56%, 1);
+    --ds-gray-1000: hsla(0, 0%, 9%, 1);
+    --ds-gray-1000-h: hsl(0, 0%, 22%);
+    --ds-gray-alpha-200: hsla(0, 0%, 0%, 0.08);
+    --ds-gray-alpha-400: hsla(0, 0%, 0%, 0.08);
+    --ds-background-100: hsla(0, 0%, 100%, 1);
+    --ds-focus-color: var(--ds-blue-700);
+    --ds-focus-ring: 0 0 0 2px var(--ds-background-100), 0 0 0 4px var(--ds-focus-color);
+    --ds-shadow-border: 0 0 0 1px rgba(0, 0, 0, 0.08);
+    --ds-shadow-small: 0px 2px 2px rgba(0, 0, 0, 0.04);
+    --ds-shadow-border-small: var(--ds-shadow-border), var(--ds-shadow-small);
+    --ds-blue-100: oklch(97.32% 0.0141 251.56);
+    --ds-blue-900: oklch(53.18% 0.2399 256.9900584162342);
+    --ds-red-100: oklch(96.5% 0.0223 13.09);
+    --ds-amber-100: oklch(97.48% 0.0331 85.79);
+    --ds-amber-900: oklch(52.79% 0.1496 54.65);
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 72.2% 50.6%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 80%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 72.2% 50.6%;
+
+    --context-card-border: hsla(0, 0%, 18%, 1);
+    --geist-background: #000;
+    --ds-shadow-menu: var(--ds-shadow-border), 0px 1px 1px rgba(0, 0, 0, 0.02), 0px 4px 8px -4px rgba(0, 0, 0, 0.04), 0px 16px 24px -8px rgba(0, 0, 0, 0.06);
+    --ds-red-800: oklch(58.01% 0.227 25.12);
+    --ds-red-900: oklch(69.96% 0.2136 22.03);
+    --ds-blue-700: oklch(57.61% 0.2321 258.23);
+    --ds-amber-800: oklch(77.21% 0.1991 64.28);
+    --ds-gray-100: hsla(0, 0%, 10%, 1);
+    --ds-gray-400: hsla(0, 0%, 18%, 1);
+    --ds-gray-700: hsla(0, 0%, 56%, 1);
+    --ds-gray-1000: hsla(0, 0%, 93%, 1);
+    --ds-gray-1000-h: hsl(0, 0%, 80%);
+    --ds-gray-alpha-200: hsla(0, 0%, 100%, 0.09);
+    --ds-gray-alpha-400: hsla(0, 0%, 100%, 0.14);
+    --ds-background-100: hsla(0, 0%, 4%, 1);
+    --ds-shadow-border: 0 0 0 1px rgba(255, 255, 255, 0.145);
+    --ds-shadow-small: 0px 1px 2px rgba(0, 0, 0, 0.16);
+    --ds-shadow-border-small: var(--ds-shadow-border), 0px 1px 2px rgba(0, 0, 0, 0.16);
+    --ds-blue-100: oklch(22.17% 0.069 259.89);
+    --ds-blue-900: oklch(71.7% 0.1648 250.79360374054167);
+    --ds-red-100: oklch(22.1% 0.0657 15.11);
+    --ds-amber-100: oklch(22.46% 0.0538 76.04);
+    --ds-amber-900: oklch(77.21% 0.1991 64.28);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .glow-on-hover {
+    @apply transition-shadow duration-300;
+  }
+  .glow-on-hover:hover {
+    box-shadow: 0 0 25px 5px hsl(var(--primary) / 0.8), 0 0 10px 0px hsl(var(--primary) / 0.6);
+  }
+  .fade-in-on-scroll {
+    opacity: 0;
+    transform: translateY(50px) scale(0.98);
+    transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  .fade-in-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  
+  .smoke-container {
+    filter: blur(15px);
+    mix-blend-mode: screen;
+  }
+  .smoke-element {
+    position: absolute;
+    bottom: -250px;
+    left: 50%;
+    background: radial-gradient(circle, hsla(0, 0%, 100%, 0.04) 0%, transparent 60%);
+    border-radius: 50%;
+    animation: smoke-rise 20s infinite linear;
+    opacity: 0;
+  }
+  .smoke-element:nth-child(1) {
+    width: 250px;
+    height: 250px;
+    animation-delay: 0s;
+    animation-duration: 25s;
+    left: 10%;
+  }
+  .smoke-element:nth-child(2) {
+    width: 180px;
+    height: 180px;
+    animation-delay: -5s;
+    animation-duration: 30s;
+    left: 40%;
+    background: radial-gradient(circle, hsl(var(--primary) / 0.03) 0%, transparent 60%);
+  }
+  .smoke-element:nth-child(3) {
+    width: 350px;
+    height: 350px;
+    animation-delay: -12s;
+    animation-duration: 20s;
+    left: 70%;
+  }
+   .smoke-element:nth-child(4) {
+    width: 220px;
+    height: 220px;
+    animation-delay: -18s;
+    animation-duration: 35s;
+    left: 90%;
+    background: radial-gradient(circle, hsl(var(--primary) / 0.02) 0%, transparent 60%);
+  }
+
+  @keyframes smoke-rise {
+    0% {
+      transform: translateY(0) scale(1) translateX(-50%);
+      opacity: 0;
+    }
+    10%, 90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-120vh) scale(4) translateX(-50%);
+      opacity: 0;
+    }
+  }
+
+  /* Mobile Optimizations */
+  @media (max-width: 768px) {
+    html {
+      scroll-behavior: auto;
+    }
+    
+    .fade-in-on-scroll {
+      opacity: 0;
+      transform: none;
+      transition: opacity 0.4s ease-in-out;
+    }
+    .fade-in-on-scroll.is-visible {
+      opacity: 1;
+      transform: none;
+    }
+    
+    .smoke-container {
+      display: none;
+    }
+    
+    .glow-on-hover:hover {
+      box-shadow: 0 0 15px 3px hsl(var(--primary) / 0.5);
+    }
+  }
+}
+
+    
+
+    

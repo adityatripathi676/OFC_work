@@ -1,0 +1,178 @@
+{
+  "placeholderImages": [
+    {
+      "id": "video-thumb",
+      "description": "OFC cage fight highlight",
+      "imageUrl": "https://images.unsplash.com/photo-1680022703849-7d1a79f05ad8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjYWdlJTIwZmlnaHR8ZW58MHx8fHwxNzY5MTA2NDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cage fight"
+    },
+    {
+      "id": "event-poster-1",
+      "description": "OFC 25 Reckoning Fight Poster",
+      "imageUrl": "https://images.unsplash.com/photo-1590719372154-dd42b3196a71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmaWdodCUyMHBvc3RlcnxlbnwwfHx8fDE3NjkxMDY0MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fight poster"
+    },
+    {
+      "id": "home-gallery-1",
+      "description": "OFC Fighter",
+      "imageUrl": "/ofc-1.jpg",
+      "imageHint": "mma fighter",
+      "group": "home-gallery"
+    },
+    {
+      "id": "home-gallery-2",
+      "description": "A focused fighter training with weights",
+      "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtbWElMjBmaWdodGVyfGVufDB8fHx8MTcyMDM3NzU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fighter training",
+      "group": "home-gallery"
+    },
+    {
+      "id": "home-gallery-3",
+      "description": "Intense staredown between two fighters",
+      "imageUrl": "https://images.unsplash.com/photo-1555597673-b21d5c935865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageHint": "fighter staredown",
+      "group": "home-gallery"
+    },
+    {
+      "id": "home-gallery-4",
+      "description": "A powerful kick during a match",
+      "imageUrl": "https://images.unsplash.com/photo-1767971162450-9477017b2cb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxraWNrYm94aW5nJTIwbWF0Y2h8ZW58MHx8fHwxNzY5MDgxMjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kickboxing match",
+      "group": "home-gallery"
+    },
+    {
+      "id": "event-poster-2",
+      "description": "OFC 24 Vendetta Fight Poster",
+      "imageUrl": "https://images.unsplash.com/photo-1722278791550-a5c7d2f2c426?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmaWdodCUyMHBvc3RlcnxlbnwwfHx8fDE3NjkxMDY0MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fight poster"
+    },
+    {
+      "id": "event-poster-3",
+      "description": "OFC 23 Collision Course Fight Poster",
+      "imageUrl": "https://images.unsplash.com/photo-1535571255102-f5983c28858a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaWdodCUyMHBvc3RlcnxlbnwwfHx8fDE3NjkxMDY0MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fight poster"
+    },
+    {
+      "id": "event-poster-4",
+      "description": "OFC 22 Past Event Poster",
+      "imageUrl": "https://images.unsplash.com/photo-1591527549363-edd3c22459b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmlnaHQlMjBwb3N0ZXJ8ZW58MHx8fHwxNzY5MTA2NDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fight poster"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Fighter getting hands wrapped",
+      "imageUrl": "https://images.unsplash.com/photo-1765303215249-fc4a1165580f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmaWdodGVyJTIwcHJlcGFyYXRpb258ZW58MHx8fHwxNzY5MTA2NDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fighter preparation",
+      "group": "gallery"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Overhead shot of the octagon",
+      "imageUrl": "https://images.unsplash.com/photo-1680022702604-292f21514497?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtbWElMjBvY3RhZ29ufGVufDB8fHx8MTc2OTEwNjQwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mma octagon",
+      "group": "gallery"
+    },
+    {
+      "id": "gallery-3",
+      "description": "A boxer training with a punching bag",
+      "imageUrl": "https://images.unsplash.com/photo-1570456717698-41ac2f7157bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxib3hlciUyMHRyYWluaW5nfGVufDB8fHx8MTc2OTEwNjQwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "boxer training",
+      "group": "gallery"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Two grapplers in a match",
+      "imageUrl": "https://images.unsplash.com/photo-1764908912202-13722497d22e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFwcGxpbmclMjBtYXRjaHxlbnwwfHx8fDE3NjkxMDY0MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grappling match",
+      "group": "gallery"
+    },
+    {
+      "id": "gallery-5",
+      "description": "A fighter raising their belt",
+      "imageUrl": "https://images.unsplash.com/photo-1729673517056-c64b31797125?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGFtcGlvbiUyMGZpZ2h0ZXJ8ZW58MHx8fHwxNzY5MTA2NDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "champion fighter",
+      "group": "gallery"
+    },
+    {
+      "id": "gallery-6",
+      "description": "The crowd at an OFC event",
+      "imageUrl": "https://images.unsplash.com/photo-1643455043330-951727481e60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzcG9ydHMlMjBjcm93ZHxlbnwwfHx8fDE3NjkxMDY0MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sports crowd",
+      "group": "gallery"
+    },
+    {
+      "id": "gallery-7",
+      "description": "Close up of a glove",
+      "imageUrl": "https://images.unsplash.com/photo-1719108485160-afe3e726a1be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib3hpbmclMjBnbG92ZXxlbnwwfHx8fDE3NjkxMDY0MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "boxing glove",
+      "group": "gallery"
+    },
+    {
+      "id": "gallery-8",
+      "description": "A high kick in a kickboxing match",
+      "imageUrl": "https://images.unsplash.com/photo-1732485139770-d2aebf11ffa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxraWNrYm94aW5nJTIwbWF0Y2h8ZW58MHx8fHwxNzY5MDgxMjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kickboxing match",
+      "group": "gallery"
+    },
+    {
+      "id": "contact-map",
+      "description": "Placeholder map for contact section",
+      "imageUrl": "https://images.unsplash.com/photo-1522678073884-26b1b87526e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2OTEwMjE1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    },
+    {
+      "id": "sponsor-1",
+      "description": "Sponsor one logo",
+      "imageUrl": "https://images.unsplash.com/photo-1687523327554-fa9f50423489?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29tcGFueSUyMGxvZ298ZW58MHx8fHwxNzY5MDgyMjc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "sponsor-2",
+      "description": "Sponsor two logo",
+      "imageUrl": "https://images.unsplash.com/photo-1496200186974-4293800e2c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjkwODIyNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "sponsor-3",
+      "description": "Sponsor three logo",
+      "imageUrl": "https://images.unsplash.com/photo-1619551734325-81aaf323686c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjkwODIyNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "sponsor-4",
+      "description": "Sponsor four logo",
+      "imageUrl": "https://images.unsplash.com/photo-1529612700005-e35377bf1415?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjkwODIyNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "sponsor-5",
+      "description": "Sponsor five logo",
+      "imageUrl": "https://images.unsplash.com/photo-1619551734325-81aaf323686c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjkwODIyNzR8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "why-ofc-1",
+      "description": "Professional fighting action",
+      "imageUrl": "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageHint": "professional fighting"
+    },
+    {
+      "id": "why-ofc-2",
+      "description": "Fair judging with professional referees",
+      "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageHint": "professional referee"
+    },
+    {
+      "id": "why-ofc-3",
+      "description": "Real opportunity for fighters",
+      "imageUrl": "https://images.unsplash.com/photo-1767971162450-9477017b2cb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageHint": "fighter opportunity"
+    },
+    {
+      "id": "why-ofc-4",
+      "description": "Discipline and respect in martial arts",
+      "imageUrl": "https://images.unsplash.com/photo-1570456717698-41ac2f7157bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageHint": "martial arts discipline"
+    }
+  ]
+}
