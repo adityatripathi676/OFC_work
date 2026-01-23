@@ -42,12 +42,20 @@ const EventCard = ({ event }: { event: (typeof upcomingEvents)[0] & { isPast?: b
 export default function EventsPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Hero Section with Background Image */}
+      {/* Video Hero Section */}
       <div className="relative w-full h-[93vh] overflow-hidden bg-black">
-        <div 
-          className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
-          style={{ backgroundImage: 'url(/ofc-1.jpg)' }}
-        />
+        <video 
+          autoPlay 
+          muted 
+          loop 
+          playsInline
+          preload="auto"
+          poster="/ofc-1.jpg"
+          className="absolute top-0 left-0 w-full h-full object-cover"
+        >
+          <source src="/Ofc/1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative h-full flex flex-col items-center justify-center text-center px-4">
           <FadeIn>
