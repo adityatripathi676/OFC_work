@@ -6,7 +6,7 @@
 
 export const VIDEO_CONFIG = {
   // Main video URL - Change this to update video everywhere
-  VIDEO_URL: '/Ofc/1.mp4',
+  VIDEO_URL: '/ofc/1.mp4',
   
   // Fallback image when video doesn't load
   FALLBACK_IMAGE: '/ofc-1.jpg',
