@@ -6,6 +6,7 @@ import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card'
 import { Separator } from '@/components/ui/separator';
 import { placeholderImages, upcomingEvents, pastEvents } from '@/lib/data';
 import { FadeIn } from '@/components/fade-in';
+import { VIDEO_CONFIG, getVideoProps } from '@/lib/video-config';
 
 const EventCard = ({ event }: { event: (typeof upcomingEvents)[0] & { isPast?: boolean } }) => {
   const poster = placeholderImages.find(p => p.id === event.posterId);
@@ -46,19 +47,15 @@ export default function EventsPage() {
       <div className="relative w-full h-[93vh] overflow-hidden bg-black">
         {/* Video element - will show if file exists */}
         <video 
-          autoPlay 
-          muted 
-          loop 
-          playsInline
-          preload="metadata"
+          {...getVideoProps()}
           className="absolute top-0 left-0 w-full h-full object-cover"
         >
-          <source src="/Ofc/1.mp4" type="video/mp4" />
+          <source src={VIDEO_CONFIG.VIDEO_URL} type="video/mp4" />
         </video>
         {/* Fallback background image */}
         <div 
           className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
-          style={{ backgroundImage: 'url(/ofc-1.jpg)' }}
+          style={{ backgroundImage: `url(${VIDEO_CONFIG.FALLBACK_IMAGE})` }}
         />
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative h-full flex flex-col items-center justify-center text-center px-4">
