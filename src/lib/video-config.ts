@@ -6,10 +6,10 @@
 
 export const VIDEO_CONFIG = {
   // Main video URL - Change this to update video everywhere
-  VIDEO_URL: 'src/Ofc/1.mp4',
+  VIDEO_URL: '/Ofc/1.mp4',
   
   // Fallback image when video doesn't load
-  FALLBACK_IMAGE: '/Ofc/event-poster.jpg',
+  FALLBACK_IMAGE: '/ofc-1.jpg',
   
   // Video properties
   AUTOPLAY: true,
