@@ -50,17 +50,17 @@ export default function ContactPage() {
           <div className="max-w-4xl mx-auto flex flex-col items-center gap-8">
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild size="lg" variant="outline" className="font-bold border-2">
-                <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/9311477309" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="mr-2" /> WhatsApp Us
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline" className="font-bold border-2">
-                <a href="mailto:contact@ofc.com">
+                <a href="mailto:octafightingchampionship@gmail.com">
                   <Mail className="mr-2" /> Email Us
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline" className="font-bold border-2">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/ofcxindia" target="_blank" rel="noopener noreferrer">
                   <Instagram className="mr-2" /> Follow on Instagram
                 </a>
               </Button>
