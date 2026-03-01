@@ -6,6 +6,7 @@ import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { Toaster } from "@/components/ui/toaster"
 import { SmoothScroll } from '@/components/smooth-scroll';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: 'OFC Octa Fighting Championship - Fight. Discipline. Glory.',
@@ -35,6 +36,7 @@ export default function RootLayout({
             <Toaster />
           </div>
         </SmoothScroll>
+        <Analytics />
       </body>
     </html>
   );
